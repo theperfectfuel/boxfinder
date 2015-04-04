@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MAIN_DIR = os.path.dirname(os.path.dirname(__file__))
 
-ON_HEROKU = os.environ.get('DYNO')
+ON_HEROKU = os.environ.get('ON_HEROKU')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
